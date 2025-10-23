@@ -1,0 +1,1 @@
+psql "sslmode=verify-ca sslrootcert=server-ca.pem sslcert=client-cert.pem sslkey=client-key.pem hostaddr=34.22.181.119 port=5432 user=qa_user dbname=eretail_production"
